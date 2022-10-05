@@ -88,16 +88,16 @@ public class ConstableTest {
 
 
     @Test
-    public void shouldReturnAStringOfTheConstablesJob() {
+    public void shouldReturnAStringOfTheConstablesJurisdiction() {
         //        Arrange
         String expectedConstablesJurisdiction = "local";
 
 //        ACT
-        String actualStringJurisdiction = constable.getJurisdiction();
+        String actualJurisdiction = constable.getJurisdiction();
 
 //        Assert
 
-        assertEquals(actualStringJurisdiction, expectedConstablesJurisdiction);
+        assertEquals(actualJurisdiction, expectedConstablesJurisdiction);
     }
 
     @Test
